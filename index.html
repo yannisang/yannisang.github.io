@@ -47,24 +47,25 @@
     @media(max-width:650px){.wrap{padding:0 22px}.topbar .wrap{padding-top:13px;padding-bottom:13px;flex-wrap:wrap;gap:8px}.wordmark{font-size:20px}nav{gap:16px;font-size:13px}.hero{padding:38px 0}.intro{font-size:17px}section{padding:34px 0}.section-heading{display:block}.section-heading p{margin:-10px 0 20px}.paper{grid-template-columns:1fr;gap:4px;padding:23px 0}.year{font-size:12px}h3{font-size:21px}}
     @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
     @media print{body{background:#fff;font-size:11pt}.topbar,.skip-link{display:none}.wrap{max-width:none;padding:0}.hero{padding:0 0 20px}section{padding:18px 0}h1{font-size:30pt}h2{font-size:21pt}h3{font-size:14pt}.paper{padding:14px 0}.paper-links{font-size:10pt}.research-list li{background:none;padding:0 18px 0 0}a{color:inherit}}
-  :root {
-  --paper: #555555;  /* Page background */
-  --ink: #222222;    /* Main text */
-  --muted: #666666;  /* Collaborators, journal details, years */
-  --accent: #000080; /* Links */
-  --line: #dddddd;   /* Dividing lines */
-  --soft: #f0f0f0;   /* Research-interest label backgrounds */
+  /* Colors */
+:root {
+  --paper: #282a2d;  /* Dark grey page background */
+  --ink: #efede7;    /* Warm off-white main text */
+  --muted: #bdc3cb;  /* Light grey secondary text */
+  --accent: #9bc4f2; /* Pale blue links */
+  --line: #4c535b;   /* Subtle dividing lines */
+  --soft: #34383e;   /* Research-interest label backgrounds */
 }
 
-/* Font throughout the page */
+/* Georgia font throughout the page */
 body, h1, h2, h3, .wordmark {
-  font-family: "Times New Roman", Times, serif;
+  font-family: Georgia, "Times New Roman", serif;
 }
 
-/* Link color when the mouse points at it */
+/* Brighter blue when hovering over links */
 a:hover {
-  color: #003366;
-}  
+  color: #c9e2ff;
+}
   
   </style>
 </head>
