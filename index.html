@@ -7,6 +7,8 @@
   <meta name="description" content="Yannis Angelopoulos — nonlinear partial differential equations, general relativity, and fluid dynamics. Research and publications.">
   <meta name="theme-color" content="#163c46">
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23163c46'/%3E%3Ctext x='32' y='43' text-anchor='middle' font-family='Georgia' font-size='32' fill='white'%3EYA%3C/text%3E%3C/svg%3E">
+  
+
   <style>
     :root{--paper:#fcfbf7;--ink:#192e36;--muted:#56666c;--accent:#166477;--line:#d9dfdc;--soft:#eef2ed}
     *{box-sizing:border-box}
@@ -45,6 +47,25 @@
     @media(max-width:650px){.wrap{padding:0 22px}.topbar .wrap{padding-top:13px;padding-bottom:13px;flex-wrap:wrap;gap:8px}.wordmark{font-size:20px}nav{gap:16px;font-size:13px}.hero{padding:38px 0}.intro{font-size:17px}section{padding:34px 0}.section-heading{display:block}.section-heading p{margin:-10px 0 20px}.paper{grid-template-columns:1fr;gap:4px;padding:23px 0}.year{font-size:12px}h3{font-size:21px}}
     @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
     @media print{body{background:#fff;font-size:11pt}.topbar,.skip-link{display:none}.wrap{max-width:none;padding:0}.hero{padding:0 0 20px}section{padding:18px 0}h1{font-size:30pt}h2{font-size:21pt}h3{font-size:14pt}.paper{padding:14px 0}.paper-links{font-size:10pt}.research-list li{background:none;padding:0 18px 0 0}a{color:inherit}}
+  :root {
+  --paper: #555555;  /* Page background */
+  --ink: #222222;    /* Main text */
+  --muted: #666666;  /* Collaborators, journal details, years */
+  --accent: #000080; /* Links */
+  --line: #dddddd;   /* Dividing lines */
+  --soft: #f0f0f0;   /* Research-interest label backgrounds */
+}
+
+/* Font throughout the page */
+body, h1, h2, h3, .wordmark {
+  font-family: "Times New Roman", Times, serif;
+}
+
+/* Link color when the mouse points at it */
+a:hover {
+  color: #003366;
+}  
+  
   </style>
 </head>
 <body>
