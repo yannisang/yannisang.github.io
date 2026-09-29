@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Yannis Angelopoulos | Mathematics</title>
+  <meta name="description" content="Yannis Angelopoulos — nonlinear partial differential equations, general relativity, and fluid dynamics. Research and publications.">
+  <meta name="theme-color" content="#163c46">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23163c46'/%3E%3Ctext x='32' y='43' text-anchor='middle' font-family='Georgia' font-size='32' fill='white'%3EYA%3C/text%3E%3C/svg%3E">
+  <style>
+    :root{--paper:#fcfbf7;--ink:#192e36;--muted:#56666c;--accent:#166477;--line:#d9dfdc;--soft:#eef2ed}
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth;scroll-padding-top:90px}
+    body{margin:0;background:var(--paper);color:var(--ink);font:17px/1.65 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+    a{color:var(--accent);text-decoration-thickness:1px;text-underline-offset:4px}
+    a:hover{color:#0b3d4a}
+    a:focus-visible{outline:3px solid #b48230;outline-offset:5px;border-radius:2px}
+    .skip-link{position:absolute;left:20px;top:-80px;background:var(--paper);padding:10px;z-index:10}.skip-link:focus{top:10px}
+    .wrap{max-width:1080px;margin:0 auto;padding:0 40px}
+    .topbar{border-bottom:1px solid var(--line);position:sticky;top:0;background:var(--paper);z-index:5}
+    .topbar .wrap{display:flex;align-items:center;justify-content:space-between;gap:24px;min-height:72px}
+    .wordmark{font-family:Georgia,serif;font-size:23px;text-decoration:none;color:var(--ink)}
+    nav{display:flex;gap:24px;flex-wrap:wrap;font-size:14px}nav a{text-decoration:none}
+    .hero{padding:64px 0 52px;border-bottom:1px solid var(--line)}
+    .eyebrow{text-transform:uppercase;letter-spacing:.15em;font-size:12px;font-weight:650;color:var(--accent);margin:0 0 12px}
+    h1,h2,h3{font-family:Georgia,"Times New Roman",serif;font-weight:400;line-height:1.2}
+    h1{font-size:clamp(38px,5.8vw,58px);letter-spacing:-.035em;margin:0 0 28px}
+    .intro{max-width:790px;font-size:19px}.intro p{margin:0 0 16px}
+    .upcoming{border-left:3px solid #97a99f;padding-left:18px}
+    section{padding:44px 0;border-bottom:1px solid var(--line)}
+    h2{font-size:32px;letter-spacing:-.015em;margin:0 0 22px}
+    .research-list{display:flex;flex-wrap:wrap;gap:10px;list-style:none;padding:0;margin:0}
+    .research-list li{background:var(--soft);padding:7px 14px;border-radius:3px;font-size:16px}
+    .section-heading{display:flex;gap:20px;align-items:baseline;justify-content:space-between}
+    .section-heading p{color:var(--muted);font-size:14px;margin:0}
+    .papers{list-style:none;padding:0;margin:0}
+    .paper{display:grid;grid-template-columns:65px minmax(0,1fr);gap:16px;padding:25px 0;border-top:1px solid var(--line);break-inside:avoid}
+    .paper:first-child{border-top:0;padding-top:6px}
+    .year{color:var(--muted);font-size:14px;line-height:1.6;padding-top:3px;font-variant-numeric:tabular-nums}
+    h3{font-size:23px;line-height:1.35;margin:0 0 7px}
+    .authors,.venue{font-size:15px;color:var(--muted);margin:3px 0}.venue{font-style:italic}
+    .paper-links{display:flex;flex-wrap:wrap;gap:10px 22px;margin:9px 0 0;font-size:14px}
+    .contact p{margin:8px 0}.small{font-size:14px;color:var(--muted)}
+    footer{padding:28px 0 42px;font-size:13px;color:var(--muted)}
+    @media(max-width:650px){.wrap{padding:0 22px}.topbar .wrap{padding-top:13px;padding-bottom:13px;flex-wrap:wrap;gap:8px}.wordmark{font-size:20px}nav{gap:16px;font-size:13px}.hero{padding:38px 0}.intro{font-size:17px}section{padding:34px 0}.section-heading{display:block}.section-heading p{margin:-10px 0 20px}.paper{grid-template-columns:1fr;gap:4px;padding:23px 0}.year{font-size:12px}h3{font-size:21px}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+    @media print{body{background:#fff;font-size:11pt}.topbar,.skip-link{display:none}.wrap{max-width:none;padding:0}.hero{padding:0 0 20px}section{padding:18px 0}h1{font-size:30pt}h2{font-size:21pt}h3{font-size:14pt}.paper{padding:14px 0}.paper-links{font-size:10pt}.research-list li{background:none;padding:0 18px 0 0}a{color:inherit}}
+  </style>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="topbar">
+    <div class="wrap">
+      <a class="wordmark" href="#main">Yannis Angelopoulos</a>
+      <nav aria-label="Main navigation">
+        <a href="#research">Research</a><a href="#preprints">Preprints</a><a href="#publications">Publications</a><a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+  <main id="main" class="wrap">
+    <!-- EDIT: affiliations and introductory text -->
+    <div class="hero">
+      <p class="eyebrow">Mathematics</p>
+      <h1>Yannis Angelopoulos</h1>
+      <div class="intro">
+        <p>I am a <strong>Postdoctoral Research Associate</strong> at the <a href="https://www.iacm.forth.gr/">Institute of Applied and Computational Mathematics (IACM)</a>, Foundation for Research and Technology–Hellas (FORTH).</p>
+        <p class="upcoming">I will join the <a href="https://math.uoc.gr/en/">Department of Mathematics and Applied Mathematics</a> at the University of Crete as an <strong>Associate Professor</strong>.</p>
+      </div>
+    </div>
+    <section id="research" aria-labelledby="research-heading">
+      <h2 id="research-heading">Research interests</h2>
+      <ul class="research-list"><li>Nonlinear partial differential equations</li><li>General relativity</li><li>Fluid dynamics</li></ul>
+    </section>
+    <section id="preprints" aria-labelledby="preprints-heading">
+      <div class="section-heading"><h2 id="preprints-heading">Preprints</h2><p>Most recent first</p></div>
+      <ol class="papers">
+      <!-- Paper: arXiv 2603.10378 -->
+      <li class="paper" id="paper-2603.10378">
+        <span class="year">2026</span>
+        <div><h3>The moduli space of dynamical spherically symmetric black hole spacetimes and the extremal threshold</h3><p class="authors">With Christoph Kehle and Ryan Unger</p>
+          <p class="paper-links"><a href="https://arxiv.org/abs/2603.10378">arXiv:2603.10378</a></p>
+        </div>
+      </li>
+      <!-- Paper: arXiv 2602.14712 -->
+      <li class="paper" id="paper-2602.14712">
+        <span class="year">2026</span>
+        <div><h3>Matching conditions for scattering solutions of scalar wave equations on extremal Reissner–Nordström spacetimes</h3><p class="authors">With Istvan Kadar</p>
+          <p class="paper-links"><a href="https://arxiv.org/abs/2602.14712">arXiv:2602.14712</a></p>
+        </div>
+      </li>
+      <!-- Paper: arXiv 2312.17408 -->
+      <li class="paper" id="paper-2312.17408">
+        <span class="year">2023</span>
+        <div><h3>Supersonic flow past an airfoil</h3>
+          <p class="paper-links"><a href="https://arxiv.org/abs/2312.17408">arXiv:2312.17408</a></p>
+        </div>
+      </li>
+      <!-- Paper: arXiv 2109.13369 -->
+      <li class="paper" id="paper-2109.13369">
+        <span class="year">2021</span>
+        <div><h3>Instability results for transonic flows past airfoils</h3>
+          <p class="paper-links"><a href="https://arxiv.org/abs/2109.13369">arXiv:2109.13369</a></p>
+        </div>
+      </li>
+      <!-- Paper: arXiv 2010.05876 -->
+      <li class="paper" id="paper-2010.05876">
+        <span class="year">2020</span>
+        <div><h3>Semi-global constructions of spacetimes containing curvature singularities</h3>
+          <p class="paper-links"><a href="https://arxiv.org/abs/2010.05876">arXiv:2010.05876</a></p>
+        </div>
+      </li>
+      <!-- Paper: arXiv 1612.01562 -->
+      <li class="paper" id="paper-1612.01562">
+        <span class="year">2016</span>
+        <div><h3>Asymptotic blow-up for a class of semilinear wave equations on extremal Reissner–Nordström spacetimes</h3><p class="authors">With Stefanos Aretakis and Dejan Gajic</p>
+          <p class="paper-links"><a href="https://arxiv.org/abs/1612.01562">arXiv:1612.01562</a></p>
+        </div>
+      </li>
+      </ol>
+    </section>
+    <section id="publications" aria-labelledby="publications-heading">
+      <div class="section-heading"><h2 id="publications-heading">Publications</h2><p>Journal articles and arXiv versions</p></div>
+      <ol class="papers">
+      <!-- Paper: arXiv 2410.16234 -->
+      <li class="paper" id="paper-2410.16234">
+        <span class="year">2026</span>
+        <div><h3>Nonlinear stability of extremal Reissner–Nordström black holes in spherical symmetry</h3><p class="authors">With Christoph Kehle and Ryan Unger</p><p class="venue">Forum of Mathematics, Pi 14, e3 (2026)</p>
+          <p class="paper-links"><a href="https://www.cambridge.org/core/journals/forum-of-mathematics-pi/article/nonlinear-stability-of-extremal-reissnernordstrom-black-holes-in-spherical-symmetry/8781A10E7425E7BB4744DA16F16D72E0" aria-label="Published version of Nonlinear stability of extremal Reissner–Nordström black holes in spherical symmetry">Published version</a><a href="https://arxiv.org/abs/2410.16234">arXiv:2410.16234</a></p>
+        </div>
+      </li>
+      <!-- Paper: arXiv 2502.00210 -->
+      <li class="paper" id="paper-2502.00210">
+        <span class="year">2025</span>
+        <div><h3>Semilinear wave equations on extremal Reissner–Nordström black holes revisited</h3><p class="authors">With Ryan Unger</p><p class="venue">Communications in Mathematical Physics 406, 239 (2025)</p>
+          <p class="paper-links"><a href="https://doi.org/10.1007/s00220-025-05420-4" aria-label="Published version of Semilinear wave equations on extremal Reissner–Nordström black holes revisited">Published version</a><a href="https://arxiv.org/abs/2502.00210">arXiv:2502.00210</a></p>
+        </div>
+      </li>
+      <!-- Paper: arXiv 2102.11884 -->
+      <li class="paper" id="paper-2102.11884">
+        <span class="year">2023</span>
+        <div><h3>Late-time tails and mode coupling of linear waves on Kerr spacetimes</h3><p class="authors">With Stefanos Aretakis and Dejan Gajic</p><p class="venue">Advances in Mathematics 417, 108939 (2023)</p>
+          <p class="paper-links"><a href="https://www.sciencedirect.com/science/article/abs/pii/S0001870823000828" aria-label="Published version of Late-time tails and mode coupling of linear waves on Kerr spacetimes">Published version</a><a href="https://arxiv.org/abs/2102.11884">arXiv:2102.11884</a></p>
+        </div>
+      </li>
+      <!-- Paper: arXiv 2102.11888 -->
+      <li class="paper" id="paper-2102.11888">
+        <span class="year">2023</span>
+        <div><h3>Price’s law and precise late-time asymptotics for subextremal Reissner–Nordström black holes</h3><p class="authors">With Stefanos Aretakis and Dejan Gajic</p><p class="venue">Annales Henri Poincaré 24, 3215–3287 (2023)</p>
+          <p class="paper-links"><a href="https://doi.org/10.1007/s00023-023-01328-8" aria-label="Published version of Price’s law and precise late-time asymptotics for subextremal Reissner–Nordström black holes">Published version</a><a href="https://arxiv.org/abs/2102.11888">arXiv:2102.11888</a></p>
+        </div>
+      </li>
+      <!-- Paper: arXiv 1910.07975 -->
+      <li class="paper" id="paper-1910.07975">
+        <span class="year">2020</span>
+        <div><h3>A non-degenerate scattering theory for the wave equation on extremal Reissner–Nordström</h3><p class="authors">With Stefanos Aretakis and Dejan Gajic</p><p class="venue">Communications in Mathematical Physics 380, 323–408 (2020)</p>
+          <p class="paper-links"><a href="https://doi.org/10.1007/s00220-020-03857-3" aria-label="Published version of A non-degenerate scattering theory for the wave equation on extremal Reissner–Nordström">Published version</a><a href="https://arxiv.org/abs/1910.07975">arXiv:1910.07975</a></p>
+        </div>
+      </li>
+      <!-- Paper: arXiv 1908.00115 -->
+      <li class="paper" id="paper-1908.00115">
+        <span class="year">2020</span>
+        <div><h3>Nonlinear scalar perturbations of extremal Reissner–Nordström spacetimes</h3><p class="authors">With Stefanos Aretakis and Dejan Gajic</p><p class="venue">Annals of PDE 6, 12, pp. 1–124 (2020)</p>
+          <p class="paper-links"><a href="https://doi.org/10.1007/s40818-020-00087-7" aria-label="Published version of Nonlinear scalar perturbations of extremal Reissner–Nordström spacetimes">Published version</a><a href="https://arxiv.org/abs/1908.00115">arXiv:1908.00115</a></p>
+        </div>
+      </li>
+      <!-- Paper: arXiv 1807.08801 -->
+      <li class="paper" id="paper-1807.08801">
+        <span class="year">2020</span>
+        <div><h3>Invariant measures for integrable spin chains and an integrable discrete nonlinear Schrödinger equation</h3><p class="authors">With Rowan Killip and Monica Visan</p><p class="venue">SIAM Journal on Mathematical Analysis 52(1), 135–163 (2020)</p>
+          <p class="paper-links"><a href="https://doi.org/10.1137/19M1265314" aria-label="Published version of Invariant measures for integrable spin chains and an integrable discrete nonlinear Schrödinger equation">Published version</a><a href="https://arxiv.org/abs/1807.08801">arXiv:1807.08801</a></p>
+        </div>
+      </li>
+      <!-- Paper: arXiv 1807.03802 -->
+      <li class="paper" id="paper-1807.03802">
+        <span class="year">2020</span>
+        <div><h3>Late-time asymptotics for the wave equation on extremal Reissner–Nordström backgrounds</h3><p class="authors">With Stefanos Aretakis and Dejan Gajic</p><p class="venue">Advances in Mathematics 375, 107363 (2020)</p>
+          <p class="paper-links"><a href="https://doi.org/10.1016/j.aim.2020.107363" aria-label="Published version of Late-time asymptotics for the wave equation on extremal Reissner–Nordström backgrounds">Published version</a><a href="https://arxiv.org/abs/1807.03802">arXiv:1807.03802</a></p>
+        </div>
+      </li>
+      <!-- Paper: arXiv 1712.09977 -->
+      <li class="paper" id="paper-1712.09977">
+        <span class="year">2019</span>
+        <div><h3>Logarithmic corrections in the asymptotic expansion for the radiation field along null infinity</h3><p class="authors">With Stefanos Aretakis and Dejan Gajic</p><p class="venue">Journal of Hyperbolic Differential Equations 16(1), 1–34 (2019)</p>
+          <p class="paper-links"><a href="https://doi.org/10.1142/S0219891619500012" aria-label="Published version of Logarithmic corrections in the asymptotic expansion for the radiation field along null infinity">Published version</a><a href="https://arxiv.org/abs/1712.09977">arXiv:1712.09977</a></p>
+        </div>
+      </li>
+      <!-- Paper: arXiv 1809.10037 -->
+      <li class="paper" id="paper-1809.10037">
+        <span class="year">2018</span>
+        <div><h3>Horizon hair of extremal black holes and measurements at null infinity</h3><p class="authors">With Stefanos Aretakis and Dejan Gajic</p><p class="venue">Physical Review Letters 121, 131102 (2018)</p>
+          <p class="paper-links"><a href="https://doi.org/10.1103/PhysRevLett.121.131102" aria-label="Published version of Horizon hair of extremal black holes and measurements at null infinity">Published version</a><a href="https://arxiv.org/abs/1809.10037">arXiv:1809.10037</a></p>
+        </div>
+      </li>
+      <!-- Paper: arXiv 1802.05692 -->
+      <li class="paper" id="paper-1802.05692">
+        <span class="year">2018</span>
+        <div><h3>Asymptotics for scalar perturbations from a neighbourhood of the bifurcation sphere</h3><p class="authors">With Stefanos Aretakis and Dejan Gajic</p><p class="venue">Classical and Quantum Gravity 35(15), 155007 (2018)</p>
+          <p class="paper-links"><a href="https://doi.org/10.1088/1361-6382/aacc1e" aria-label="Published version of Asymptotics for scalar perturbations from a neighbourhood of the bifurcation sphere">Published version</a><a href="https://arxiv.org/abs/1802.05692">arXiv:1802.05692</a></p>
+        </div>
+      </li>
+      <!-- Paper: arXiv 1612.01566 -->
+      <li class="paper" id="paper-1612.01566">
+        <span class="year">2018</span>
+        <div><h3>Late-time asymptotics for the wave equation on spherically symmetric, stationary spacetimes</h3><p class="authors">With Stefanos Aretakis and Dejan Gajic</p><p class="venue">Advances in Mathematics 323, 529–621 (2018)</p>
+          <p class="paper-links"><a href="https://doi.org/10.1016/j.aim.2017.10.027" aria-label="Published version of Late-time asymptotics for the wave equation on spherically symmetric, stationary spacetimes">Published version</a><a href="https://arxiv.org/abs/1612.01566">arXiv:1612.01566</a></p>
+        </div>
+      </li>
+      <!-- Paper: arXiv 1612.01565 -->
+      <li class="paper" id="paper-1612.01565">
+        <span class="year">2018</span>
+        <div><h3>A vector field approach to almost-sharp decay for the wave equation on spherically symmetric, stationary spacetimes</h3><p class="authors">With Stefanos Aretakis and Dejan Gajic</p><p class="venue">Annals of PDE 4, 15 (2018)</p>
+          <p class="paper-links"><a href="https://doi.org/10.1007/s40818-018-0051-2" aria-label="Published version of A vector field approach to almost-sharp decay for the wave equation on spherically symmetric, stationary spacetimes">Published version</a><a href="https://arxiv.org/abs/1612.01565">arXiv:1612.01565</a></p>
+        </div>
+      </li>
+      <!-- Paper: arXiv 1512.09094 -->
+      <li class="paper" id="paper-1512.09094">
+        <span class="year">2017</span>
+        <div><h3>The trapping effect on degenerate horizons</h3><p class="authors">With Stefanos Aretakis and Dejan Gajic</p><p class="venue">Annales Henri Poincaré 18(5), 1593–1633 (2017)</p>
+          <p class="paper-links"><a href="https://doi.org/10.1007/s00023-016-0545-y" aria-label="Published version of The trapping effect on degenerate horizons">Published version</a><a href="https://arxiv.org/abs/1512.09094">arXiv:1512.09094</a></p>
+        </div>
+      </li>
+      <!-- Paper: arXiv 1408.4478 -->
+      <li class="paper" id="paper-1408.4478">
+        <span class="year">2016</span>
+        <div><h3>Global spherically symmetric solutions of non-linear wave equations with null condition on extremal Reissner–Nordström spacetimes</h3><p class="venue">International Mathematics Research Notices 2016(11), 3279–3355 (2016)</p>
+          <p class="paper-links"><a href="https://doi.org/10.1093/imrn/rnv240" aria-label="Published version of Global spherically symmetric solutions of non-linear wave equations with null condition on extremal Reissner–Nordström spacetimes">Published version</a><a href="https://arxiv.org/abs/1408.4478">arXiv:1408.4478</a></p>
+        </div>
+      </li>
+      <!-- Paper: arXiv 1307.4110 -->
+      <li class="paper" id="paper-1307.4110">
+        <span class="year">2016</span>
+        <div><h3>Well-posedness and ill-posedness results for the Novikov–Veselov equation</h3><p class="venue">Communications on Pure and Applied Analysis 15(3), 727–760 (2016)</p>
+          <p class="paper-links"><a href="https://doi.org/10.3934/cpaa.2016.15.727" aria-label="Published version of Well-posedness and ill-posedness results for the Novikov–Veselov equation">Published version</a><a href="https://arxiv.org/abs/1307.4110">arXiv:1307.4110</a></p>
+        </div>
+      </li>
+      </ol>
+    </section>
+    <section class="contact" id="contact" aria-labelledby="contact-heading">
+      <h2 id="contact-heading">Contact &amp; links</h2>
+      <p><a href="mailto:yannisang@gmail.com">yannisang@gmail.com</a></p>
+      <p><a href="mailto:yannis.angelopoulos@iacm.forth.gr">yannis.angelopoulos@iacm.forth.gr</a></p>
+      <p><a href="https://scholar.google.com/citations?hl=en&amp;user=WOehrlEAAAAJ">Google Scholar</a></p>
+    </section>
+    <footer>Yannis Angelopoulos · Updated September 2026</footer>
+  </main>
+</body>
+</html>
